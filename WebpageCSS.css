@@ -1,0 +1,292 @@
+html{
+    background-color: gainsboro;
+}
+
+/* Page 1 */
+.pages{
+    
+    padding: 22px;
+    padding-left: 1000px;
+    font-size: 1.25em;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;  
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    margin-top: 25px; 
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color: lightcoral;
+}
+
+.Atlanta{
+    width: 1450px;
+    
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #551A8B;
+    margin-top: 25px;
+}
+
+.picText{
+    position: absolute;
+    top: 500px;
+    left: 530px;
+    font-size: 3em;
+    font-family: "Garamond";
+    font-weight: bold;
+    
+}
+
+/* Page 2 */
+.aboutMePara{
+    line-height: 1.5;
+    
+}
+.AboutMeSect{
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.mainPic{
+    float: right;
+    height: 550px;
+    padding-right: 100px;
+}
+
+.page2head{
+    background-image: url("ATLSky.jpg");
+    padding: 30px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 2.25em;
+    margin-left: 50px;   
+    margin-right: 50px;
+    color: whitesmoke;
+}
+.pages2{
+    padding: 22px;
+    padding-left: 1000px;
+    /*background-image: url(leaf.jpg);*/
+    font-size: 1.25em;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;  
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+
+/* Page 3 */
+.page3head{
+    background-image: url("ATLSky.jpg");
+    padding: 30px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 2.25em;
+    margin-left: 50px;   
+    margin-right: 50px;
+    color: whitesmoke;
+    
+}
+.pages3{
+    padding: 22px;
+    padding-left: 1000px;
+    font-size: 1.25em;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;  
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+.job1{
+    float: left; 
+    margin-left: 100px;
+    width: 40%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-top: 30px;
+    ;
+}
+
+.WorkExperience{
+    margin-left: 100px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.jobtitles{
+    float: right;
+    width: 51.5%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    
+}
+.bullets{
+    float: right;
+    width:43.5%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-right: 100px;
+    margin-top: -10px;
+    padding-right: 20px;
+}
+.job2{
+    float: left; 
+    margin-left: 100px;
+    width: 40%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-top: 65px;
+}
+.Leadership {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-left: 100px;
+    margin-top: 300px;
+}
+.AIESEC{
+    float: left; 
+    margin-left: 100px;
+    width: 40%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-top: 35px;
+}
+.Partnership{
+    float: right;
+    width: 51.5%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    
+}
+.skills {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-left: 100px;
+    margin-top: 60px;
+    float: left;
+}
+.skillslist{
+    float: right;
+    width: 50.5%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    padding-top: 20px
+}
+
+/* Page 4 */
+.page4head {
+    background-image: url("ATLSky.jpg");
+    padding: 30px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 2.25em;
+    margin-left: 50px;   
+    margin-right: 50px;
+    color: whitesmoke;
+}
+
+.pages4{
+    padding: 22px;
+    padding-left: 1000px;
+    font-size: 1.25em;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;  
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.column {
+    float: left;
+}
+
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+    height: 250px;
+    padding-left: 100px;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.picContainer {
+    position: relative;
+    display: none;
+}
+
+#expandedPic {
+    margin-right: 500px;
+    margin-left: 375px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 800px;
+    width: 800px;
+}
+
+#picTxt {
+    position: absolute;
+    bottom: 80px;
+    left: 385px;
+    color: white;
+    font-size: 25px;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+/*
+.vsco {
+    height: 400px;
+    float: left;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.march {
+    height: 500px;
+    float: right;
+    padding-top: 20px;
+    padding-right:100px;
+}
+.midtown {
+    height: 500px;
+    float: left;
+    padding-top: 30px;
+    padding-left:120px;
+}
+.sunday {
+    height: 600px;
+    float: right;
+    padding-top: 30px;
+    padding-right: 170px;
+}
+.aiesec {
+    height: 400px;
+    float: left;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.mountains {
+    height: 500px;
+    float: right;
+    padding-right: 200px;
+    padding-top: 30px;
+}
+.formal {
+    height: 400px;
+    float: left;
+    transform: rotate(90deg);
+    padding-bottom: 90px;
+    margin-top: 50px;
+}
+
+
+
+
+

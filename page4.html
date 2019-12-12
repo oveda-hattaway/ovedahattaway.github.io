@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" type="text/css" href="WebpageCSS.css">
+</head>
+<body>
+    <div class = "pages4">
+        <a href="WebpageHTML.html">Main</a>
+        <a href="page2.html">About Me</a>
+        <a href="page3.html">Experience</a>
+    </div>
+    <h1 class= "page4head"> Photo Gallery</h1>
+    
+    <div class = "row">
+        <div class = "column">
+            <img src = "Women'sMarch.jpg" alt="Women's March" onclick = "picGallery(this);">
+        </div>
+        <div class = "column">
+            <img src = "AIESECBanquet2019.jpg" alt = "AIESEC Banquet Spring 2019" onclick="picGallery(this);">
+        </div>
+        <div class = "column">
+            <img src="Mountains.jpg" alt = "Mountain Weekend 2019" onclick="picGallery(this);">
+        </div>
+        <div class = "column">
+            <img src = "MusicMidtown.JPG" alt = "Music Midtown 2019" onclick = "picGallery(this);">
+        </div>
+    </div>
+    
+    <div class = "picContainer">
+        <span onclick="this.parentElement.style.display='none'" class = "closebtn">;</span>
+        
+        <img id = "expandedPic">
+        
+        <div id = "picTxt"></div>
+    
+    </div>
+    
+    <script type="text/javascript" src="PhotoGallery.js"></script>
+    <!--
+    <div class = "container2">
+        <img class= "vsco" src = "2018-07-30%2022_33_25.392.JPG">
+        <img class="march" src = "56960064176--72FAC2DC-611E-4B20-BFA5-0418B9865D8F.JPG">
+        <img class="midtown" src = "6E8A5D61-3D13-46C3-8535-E302A26A8D4B.JPG">
+        <img class="sunday" src = "7B9D32F5-6837-4A4D-AACA-6726E076F214.JPG">
+        <img class = "aiesec" src = "930053fa-89b1-469d-b6e0-333f8e14417c.JPG">
+        <img class = "mountains" src = "IMG-2465.JPG">
+        <img class = "formal" src = "IMG-2876.JPG">
+    </div>
+    -->
+</body>
+</html>
